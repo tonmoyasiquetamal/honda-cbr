@@ -45,12 +45,11 @@ body{
     left: calc(50% - 149px/2);
     top: 40px;
  }
-.fa-star{
-    color: lime;
- display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
+ .fa-star.filled{
+    color: yellowgreen;
+}
+.fa-star.empty{
+    color: lightgray;
 }
   
   
