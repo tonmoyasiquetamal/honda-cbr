@@ -13,52 +13,191 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Stylesheet CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Font-Style Popins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <!-- Font-Awsome Kit CDN -->
+    <script src="https://kit.fontawesome.com/94a81e8d53.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- <Navbar Menu"> -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item me-2">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item me-2">
-                        <a class="nav-link active" href="#">Shops</a>
-                    </li>
-                    <li class="nav-item me-2">
-                        <a class="nav-link active" href="#">News</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <button class="btn btn-minus">BUY NOW</button>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     <!-- Header Section Start -->
     <header>
-        <section class="container my-5">
+
+        <section class="container-fluid my-5 mt-auto bike-bg-info w-auto">
             <div class="row">
-                <div class="col-md-6 d-flex justify-content-center align-items-center">
-                    <div class="w-75">
-                        <p>Computer-controlled digital transistorized with electronic advance</p>
-                        <h1>Honda CBR 300R</h1>
-                        <p>All in all, the CBR600RR offers very thrilling and provides typical 600 cc Supersport
+                <div class="col-md-6 d-flex:md justify-content-center align-items-center">
+                    <div class=" w-auto">
+                        <p class="text-white">Computer-controlled digital transistorized with electronic advance</p>
+                        <h1 class="text-white">Honda CBR 300R</h1>
+                        <p class="text-white">All in all, the CBR600RR offers very thrilling and provides typical 600 cc
+                            Supersport
                             performance in a straight line.</p>
-                        <button class="btn btn-success">BUY NOW</button>
+                        <button class="btn btn-minus" data-toggle="modal" data-target="#purchase">Purchase <i
+                                class="fas fa-motorcycle"></i></button>
                     </div>
                 </div>
                 <div class="col-md-6 d-flex justify-content-center">
-                    <img class="img-fluid" src="images/model.png" alt="">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
                 </div>
             </div>
         </section>
     </header>
+    <!-- main are start  -->
+    <main>
+        <!-- bikes -->
+        <section class="container my-5">
+            <h3 class="text-center fw-bolder">Fetured Bikes 2021</h3>
+            <p class="text-center color"><span>Best bike collection</span></p>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card border-0 h-100">
+                        <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100">
+                        <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card border-0 h-100">
+                        <img src="images/feature-bike.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Latest News -->
+        <section class="container ">
+            <h3 class="text-center fw-bolder my-4">Latest News</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card shadow-lg border-0 h-100">
+                        <img src="images/bike-1.png" class="latest rounded mx-auto d-block" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text">Ducati renews the XDiavel range by introducing two new versions for
+                                2021: the XDiavel Dark and the XDiavel Black Star.</p>
+                        </div>
+                        <div class="m-3">
+
+                            <button class="read-more">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-lg border-0 h-100">
+                        <img src="images/bike-2.png" class="latest rounded mx-auto d-block" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Motorcycles & Scooters</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                        </div>
+                        <div class="m-3">
+
+                            <button class="read-more">Read More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-lg border-0 h-100">
+                        <img src="images/bike-3.png" class="latest rounded mx-auto d-block" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">2021 Honda CBR500R</h5>
+                            <p class="card-text">The current-gen Honda CBR600RR makes about 100 horsepower, and the new
+                                supersport gets a significant power boost, to about 120 horsepower at 14,000 rpm.</p>
+                        </div>
+                        <div class="m-3">
+
+                            <button class="read-more">Read More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- happy clients -->
+    <section class="container">
+        <h3 class="text-center fw-bolder my-4">Latest News</h3>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+                <div class="card shadow border-0 h-100">
+                    <img src="images/user-1.png" class="client rounded mx-auto d-block" alt="...">
+                    <div class="card-body m-2">
+                        <p class="card-text text-center">Slate helps you see how<br>
+                            many more days you need<br>
+                            to work to reach your financial<br>
+                            goal for the month and year.</p>
+                    </div>
+                    <div class="m-3">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow border-0 h-100">
+                    <img src="images/user-2.png" class=" client rounded mx-auto d-block" alt="...">
+                    <div class="card-body m-2">
+
+                        <p class="card-text text-center">Slate helps you see how<br>
+                            many more days you need<br>
+                            to work to reach your financial<br>
+                            goal for the month and year.</p>
+                    </div>
+                    <div class="m-3">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow border-0 h-100">
+                    <img src="images/user-3.jpg" class="client rounded mx-auto d-block" alt="...">
+                    <div class="card-body m-2">
+
+                        <p class="card-text text-center">Slate helps you see how<br>
+                            many more days you need<br>
+                            to work to reach your financial<br>
+                            goal for the month and year.</p>
+                    </div>
+                    <div class="m-3 ">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section is Here  -->
+    <footer>
+
+    </footer>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,10 +1,57 @@
+/* body font style  */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* Log-In */
 .btn-minus{
     color: #FFFFFF;
     background-color: #E76F51;
-    
 }
 .btn:hover {
     background-color: #6A5ACD;
     color: white;
   }
+  .bike-bg-info{
+      background-color: #264653;
+  }
+  /* bikes */
+  .bikes{
+      margin: 0 0 0 31px;
+  }
+  /* Best bike collection & latest news */
+  .color{
+      color: #E76F51;
+      
+  }
+  .card-img-top{
+      width: 18rem;
+  }
+  /* latest news */
+  .latest{
+      width: 18rem;
+  }
+  .read-more{
+    background-image: linear-gradient(to bottom, #E76F51 0%, #E76F51 100%);
+    color:#ffffff;
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+  }
+ /* client  */
+ .client{
+    position: static;
+    width: 149px;
+    height: 149px;
+    left: calc(50% - 149px/2);
+    top: 40px;
+ }
+.fa-star{
+    color: lime;
+ display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+}
+  
+  
   
