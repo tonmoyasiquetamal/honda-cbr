@@ -56,7 +56,12 @@ body{
     font-size: 14px;
 line-height: 24px;
 }
-  
+  strong{
+      color: #E76F51;
+  }
+  span{
+    color: #E76F51;
+  }
   
  /* bonus content   */
  .figure{
