@@ -51,6 +51,33 @@ body{
 .fa-star.empty{
     color: lightgray;
 }
+.regina{
+    color: #23A6F0;
+    font-size: 14px;
+line-height: 24px;
+}
   
   
-  
+ /* bonus content   */
+ .figure{
+     width: 100%;
+     height: auto;
+ }
+ .box-size{
+     padding-top: 60px;
+     text-decoration: none;
+     flex: wrap;
+ }
+ 
+ .topNewsIndex__img{
+    width: 120px;
+    margin-right: 20px;
+ }
+ .topNewsIndex__child{
+     float: left;
+    align-items: flex-start;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+ }
+ 
