@@ -25,6 +25,10 @@ body{
   }
   .card-img-top{
       width: 18rem;
+      filter: grayscale(100%)
+  }
+  .card-img-top-mid{
+    width: 18rem;
   }
   /* latest news */
   .latest{
