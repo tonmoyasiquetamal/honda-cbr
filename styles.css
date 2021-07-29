@@ -90,7 +90,25 @@ line-height: 24px;
     color: black;
  }
  /* footer  */
+ 
  .black{
      color: black;
  }
+ .social-icon i {
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+  }
+  /* icons color  */
+  .fa-facebook{
+      color:dodgerblue;
+  }
+  .fa-instagram{
+      color:crimson ;
+  }
+  .fa-twitter-square{
+      color:deepskyblue;
+  }
+  .fa-linkedin{
+      color: dodgerblue;
+  }
  
