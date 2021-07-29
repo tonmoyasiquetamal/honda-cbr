@@ -13,6 +13,7 @@ body{
   }
   .bike-bg-info{
       background-color: #264653;
+    display: flex !important;
   }
   /* bikes */
   .bikes{
